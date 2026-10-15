@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Сайт проекта и маркет
+    url: https://euk0r.ru/projects/bot-modular
+    about: Модули, установка, история версий
+  - name: Telegram (прямая связь)
+    url: https://t.me/euk0r
+    about: Срочный вопрос или приватные данные (логи с секретами — только сюда)

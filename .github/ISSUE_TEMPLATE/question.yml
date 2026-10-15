@@ -1,0 +1,11 @@
+name: Вопрос
+description: Не баг, а вопрос по настройке/работе
+labels: [question]
+body:
+  - type: textarea
+    id: text
+    attributes:
+      label: Вопрос
+      description: Опиши, что делаешь и где застрял. Для срочного — Telegram https://t.me/euk0r
+    validations:
+      required: true

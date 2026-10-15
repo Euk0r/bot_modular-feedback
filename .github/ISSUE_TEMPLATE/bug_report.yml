@@ -1,0 +1,31 @@
+name: Баг
+description: Что-то сломалось в боте или модуле
+labels: [bug]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Модуль и версия
+      description: Название модуля и версия со страницы модуля на euk0r.ru (например modsafe 0.11.0)
+      placeholder: "modsafe 0.11.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что делал
+      description: Шаги, после которых воспроизводится
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидал / что получил
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи
+      description: Текстом. Токены, chat_id и секреты вычисти до отправки!
+      render: text
